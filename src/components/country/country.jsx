@@ -12,7 +12,7 @@ export default function Country({Hnadlecountryname}) {
         FetchApi();
     },[setCountries]);
     return (
-        <div>
+        <div className={styles.picker}>
             <FormControl className={styles.FormControl}>
                 <NativeSelect defaultValue="" onChange={(e)=>Hnadlecountryname(e.target.value)}>
                     <option value="" >Global</option>

@@ -1,3 +1,12 @@
 .FormControl{
     margin-bottom: 30px !important;
 }
+@media(max-width:700px){
+    .picker{
+        width: 50%;
+        margin: auto;
+    }
+    .FormControl{
+        margin: 30px 0 !important;
+    }
+}

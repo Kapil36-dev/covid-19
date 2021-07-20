@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Pacifico&display=swap");
 .container {
+  width: 90%;
   margin: 50px 0;
 }
 .card {
-  margin: 0 2% !important;
+  margin: 12px 2% !important;
 }
 
 .h {
@@ -13,4 +14,15 @@
 
 .banner {
   width: 100%;
+}
+.card{
+  margin: 12px;
+}
+
+@media(max-width:700px){
+  .container {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
 }
